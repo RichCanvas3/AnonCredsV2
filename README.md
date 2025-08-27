@@ -2,12 +2,11 @@
 
 **Privacy-preserving organizational identity & proofs for the EVM.**
 
-AnonCreds-style credentials on Linea with BBS+ selective disclosure and Circom predicates (range, set-membership, equality). Trust is anchored by did:aa (AA smart accounts + ERC-1271). Registries store only hashes and URIs; policy and revocation flow through EAS/Verax attestations. UIs are React/TypeScript; proof service is Python (FastAPI).
+AnonCreds-style credentials on Linea with BBS+ selective disclosure and Circom predicates (range, set-membership, equality). Trust is anchored by did:aa (AA smart accounts + ERC-1271). Registries store only hashes and URIs; policy and revocation flow through EAS attestations. UIs are React/TypeScript; proof service is Python (FastAPI).
 
 ### Table of contents
 - **Overview**
 - **Key features**
-- **Monorepo layout**
 - **How it works**
 - **Quick start (dev)**
 - **Roadmap**
@@ -52,3 +51,5 @@ AnonCreds-style credentials on Linea with BBS+ selective disclosure and Circom p
 
 ### Why this exists
 Bring AnonCreds‑grade privacy to the agentic, EVM‑native world—with smart‑account governance, gas‑sponsored UX, and composable on‑chain policy—without ever putting sensitive data on-chain.
+
+
