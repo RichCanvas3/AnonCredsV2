@@ -1,6 +1,6 @@
 ## AnonCreds v2 (BBS+) on Linea — did:aa + Circom
 
-**Privacy-preserving organizational identity & proofs for the EVM.**
+**Privacy-preserving identity & proofs for the EVM.**
 
 AnonCreds-style credentials on Linea with BBS+ selective disclosure and Circom predicates (range, set-membership, equality). Trust is anchored by did:aa (AA smart accounts + ERC-1271). Registries store only hashes and URIs; policy and revocation flow through EAS attestations. UIs are React/TypeScript; proof service is Python (FastAPI).
 
